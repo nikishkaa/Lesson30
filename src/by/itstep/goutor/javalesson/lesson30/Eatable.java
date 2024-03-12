@@ -21,4 +21,13 @@ public interface Eatable {
     private void test() {
 
     }
+
+    class Switcher implements Eatable {
+        @Override
+        public void eat() {
+
+        }
+    }
+
+
 }
